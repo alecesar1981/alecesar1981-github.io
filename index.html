@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type"text/css" href="/Proyecto Final/CSS/formatos.css" />
+    <link rel="icon" type="image/x-icon" href="/Proyecto Final/Imagenes/Icono_CV.ico">
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+
+    <script src="/Proyecto Final/JS/informacion_cv.js"></script>
+
+    <div class="header col-10">
+        <marquee behavior="alternate" scrollamount="10" id="nomyape"></marquee>
+        <!-- <h1 id="nomyape"></h1> -->
+    </div>
+    
+    <div class="col-2">
+        <button class="boton" onclick="form_contacto()">Formulario de Contacto 
+            <img id="imagen_contacto" src="https://media.tenor.com/GCbRbnL1MYwAAAAj/contact-phone-number.gif" 
+            alt="Gif contactor"></button>
+    </div>
+  
+    <div class="row">
+        <div class="col-3 menu">
+          <ul>
+            <li onclick="presentacion()">Presentación</li>
+            <li onclick="datos_personales()">¿Quién soy?</li>
+            <li onclick="formacion()">Formación profesional</li>
+            <li onclick="antecedentes()">Mis antecedentes</li>
+            <li onclick="contacto()">Datos de contacto</li>
+          </ul>
+        </div>
+
+        <div class="col-6">
+          <h1 id="cuerpo_h1" class="sin_blancos_h1">Presentación</h1>
+          <p id="cuerpo_p" class="sin_blancos_p texto_justificado interlineado_15">Hola, encantado de
+            conocerte. En esta página web, encontrarás información a cerca de quien soy,
+            mi formación académica y profesional, antecedentes laborales, información de
+            contacto y mucho más. Te invito a recorrerla y a comunicarte conmigo ante
+            cualquier inquietud. GRACIAS !!!</p>
+        </div>
+
+        <div class="col-3">
+            <img id="foto_cv" scr=imagen_cv alt="Mi foto">
+        </div>
+    </div>
+
+    <div class="container_footer">
+        <footer>
+            <div class="redes_footer">
+                <a href="https://es-la.facebook.com/" target="_blank"> <img src="/Proyecto Final/Imagenes/facebook.png" alt="Logo de Facebook" /></a>
+                <a href="https://www.instagram.com/" target="_blank"> <img src="/Proyecto Final/Imagenes/instagram.png" alt="Logo de Instagram" /></a>
+                <a href="mailto:alejandromoughty@gmail.com"> <img src="/Proyecto Final/Imagenes/email.png" alt="Logo de Email" /></a>           
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+            <hr>
+            <h4>@ 2023 designed by Alejandro C. Moughty Cueto (alejandromoughty@gmail.com)</h4>
+        </footer>
+    </div>
+  
+</body>
+
+</html>
